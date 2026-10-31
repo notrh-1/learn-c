@@ -4,15 +4,10 @@
 //o output输出
  
 
-int main() {
-	//printf("Hello, World!\n");
-	//printf是一个标准库函数，用于向标准输出打印格式化的字符串。在这里，它打印了 "Hello, World!" 并换行。
+	//printf是一个标准库函数，用于向标准输出打印格式化的字符串。
 	//关键字 int if return 
 	//32个关键字
-	//auto break case char const continue default do double else 
-	//enum extern float for goto if int long register return short signed 
-	//sizeof static struct switch typedef union unsigned void volatile while
-	//关键字是C语言中具有特殊意义的保留字，不能用作变量名或函数名。它们用于定义数据类型、控制程序流程等。
+
 	//auto是用于定义自动变量的关键字，表示变量的生命周期仅限于其所在的块。
 	// break用于跳出循环或switch语句。case用于在switch语句中定义不同的分支。
 	// char用于定义字符类型的变量。const用于定义常量，表示变量的值不能被修改。
@@ -34,12 +29,61 @@ int main() {
 	// unsigned用于定义无符号类型的变量。void用于定义无返回值的函数。
 	// volatile用于定义易变类型的变量，表示变量可能在程序的其他部分被修改。
 
-	printf("%d\n",100);
-	printf("%c\n", 'X');
-	printf("%f\n",3.14);
-	//%d用于打印整数，%c用于打印字符，%f用于打印浮点数。每个格式说明符后面跟着一个对应类型的值。
-	//%c用于打印单个字符，%f用于打印浮点数。每个格式说明符后面跟着一个对应类型的值。
-	//%f用于打印浮点数。每个格式说明符后面跟着一个对应类型的值。
+	//printf("%d\n",100);
+	//printf("%c\n", 'X');
+	//printf("%f\n",3.14);
+	//%d用于打印整数。
+	//%c用于打印单个字符。
+	//%f用于打印浮点数。
+	//%s用于打印字符串。
 
+//int main() {
+//	printf("Hello,\nWorld!");
+//
+//	return 0;
+//}
+
+
+
+
+//int main() {
+////32-127的数字
+//	int i;
+//	for (i = 32; i <= 127; i++)
+//		{
+//			printf("%c ", i);
+//		}
+//	return 0;
+//}
+
+
+//int main() {
+//	printf("%c\n", 'X');
+//	printf("%c\n",88);
+//	
+//	return 0;
+//}
+
+
+//双引号和单引号的区别
+//双引号用于表示字符串，单引号用于表示单个字符。
+//int	main() {
+//	printf("abcdef\n");
+//	printf("%s\n", "abcdef");
+//	return 0;
+//}
+
+
+//char字符类型
+//int整数
+//数组-放一组相同的数据
+int main() {
+
+	char arr1[] = "abc";
+	char arr2[] = { 'a','b','c' ,'\0'};
+	printf("%s\n",arr1);
+	printf("%s\n",arr2);
 	return 0;
 }
+
+
